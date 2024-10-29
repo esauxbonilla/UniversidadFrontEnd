@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color: rgb(4, 22, 16);
+}
+
+div{
+    border: 10px solid purple;
+    background-color: beige;
+    text-align: center;
+}

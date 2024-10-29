@@ -1,0 +1,35 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;
+    /* border-collapse: collapse; */ 
+    border-spacing: 5px;
+    padding: 5px;
+}
+
+caption{
+    color: #e63416;
+    font-family: 'Danfo', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+/*
+td{
+    text-align: center;
+    background-color: black;
+    color:#f1faee;
+} */
+
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+
+tr:nth-child(odd){
+    background-color: #A7eb34;
+}
+
+th{
+    text-align: center;
+}
+
