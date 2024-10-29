@@ -3,28 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atributos class HTML</title>
+    <title>IFrame en HTML</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Lenguajes de programación</h1>
-    <p>Texto donde vamos a <span style="color: red; border: 1px solid black;"> enfatiza</span> y cambiar el color de algunos elementos</p>
+    <h1 class="titulo">Uso de iframe en HTML</h1>
+    <iframe class="marco" src="http://adelyte.io"></iframe> <!--De esta forma puedes añadir incrustaciones de otras páginas-->
+    <iframe src="texto.html" name="marco1" class="marco"></iframe> <!--De esta forma puedes añadir incrustaciones de otras páginas-->
+    <div class="centrar">
+        <a href="http://adelyte.io" target="marco1" class="boton">Cargar de Adelyte</a>
+    </div>
+    
 
-    <div>
-        <h2>Java</h2>
-        <p><span style="color: red;"> Creador</span>: James Gosling</p>
-    </div>
-<br>
-
-    <div>
-        <h2>Python</h2>
-        <p><span style="color: red;"> Creador</span>: Guido Van Rossum</p>
-    </div>
-<br>
-    <div>
-        <h2>JavaScript</h2>
-        <p><span style="color: red;"> Creador</span>: Brendan Eich</p>
-    </div>
-    <p>Texto fuera del div</p>
 </body>
 </html>
