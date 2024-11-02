@@ -1,6 +1,25 @@
+/* Poner asterisco significa selector universal. */
+*{
+    background-color: ghostwhite;
+    color: gold;
+}
+
 #titulo{
     color: crimson;
     text-align: center;
     
 }
 
+/*LAs clases de CSS no pueden iniciar con valores numéricos, y siempre utllizar giuones en vez de espacios.*/
+
+.centrar{
+    text-align: center;
+}
+
+.texto-grande{
+    font-size: 50px;
+}
+
+p.centrar{
+    text-align: right;
+}
