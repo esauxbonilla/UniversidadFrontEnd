@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+}
+p{
+    color: rgb(0, 0, 0);
+  background-color: rgb(255, 62, 62);
+  padding: 15px;
+  border: 10px solid powderblue;
+  /*margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px; */
+
+  /*margin: 40px 10px 20px 10px;*/
+
+  /* Puedes resumir los parámetros de esta manera, y si quieres utilizar los mismos márgenes arriba y a los lados, solo usa dos: Ejemplo: margin: 40px 10px*/
+
+  margin:auto 50px ;
+  text-align: center;
+
+}
