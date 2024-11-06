@@ -1,0 +1,17 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("IMG/fondo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background: dodgerblue;
+    /*Fixed, la imagen se mantiene fija,si es scroll, baja con el scroll*/
+}
+
+/*Por si acaso, poner un color de fondo similar a la imagen en caso de que la imagen no cargue*/
+
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

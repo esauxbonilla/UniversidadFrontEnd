@@ -1,0 +1,27 @@
+h1, div, p, span{
+    border: 30px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block;
+}
+
+span{
+    display: inline;
+}
+
+a{
+    display: block;
+}
+
+li{
+    display: inline;
+}
+
+h2{
+    display: none;
+}
+
+p{
+    visibility: hidden;
+}
